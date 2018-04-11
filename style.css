@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 1200px;
+    width: 100%;
+    background: #19222D;
+}
+@media (min-width: 320px){
+    .header{
+        display: flex;
+        justify-content: center;
+        min-width: 240px;
+        width: 100%;
+    }
+    .header__title{
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff;
+    }
+    .contacts__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        height: 130px;
+        font-size: 13px;
+        color: #fff;
+    }
+    p{
+        margin: 0;
+        /* padding: 5px; */
+        font-weight: 100;
+        color: #fff;
+    }
+   .data{
+        padding: 5px;
+        font-weight: 100;
+    }
+    .contacts__tel, .contacts__github{
+        text-decoration: none;
+        color: #B1C3D5;
+        font-weight: 300;
+    }
+    section{
+        padding: 20px;
+    }
+    .target__inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .caption{
+        color: #638abb;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .info{
+        font-size: 13px;
+        line-height: calc(22/13);
+        text-align: justify;
+    }
+    .skills__list{
+        padding: 20px;
+        color: #fff;
+        font-size: 13px;
+        line-height: calc(22/13);
+        font-weight: 100;
+    }
+}
+@media (min-width: 768px){
+    .header__title{
+        font-size: 22px;
+    }
+    .contacts__inner{
+        height: 160px;
+        font-size: 17px;
+    }
+    .contacts__address, .contacts__name{
+        padding: 8px;
+    }
+    .caption{
+        font-size: 18px;
+    }
+    .info{
+        font-size: 15px;
+        line-height: calc(24/15);
+    }
+    .skills__list{
+        font-size: 15px;
+        line-height: calc(24/15);
+    }
+}
+@media (min-width: 1024px){
+    .header__title{
+        font-size: 24px;
+    }
+    .contacts__inner{
+        font-size: 20px;
+        height: 180px;
+    }
+    .caption{
+        font-size: 20px;
+    }
+    .info{
+        font-size: 17px;
+        line-height: calc(26/17);
+    }
+    .skills__list{
+        font-size: 17px;
+        line-height: calc(26/17);
+    }
+
+}
